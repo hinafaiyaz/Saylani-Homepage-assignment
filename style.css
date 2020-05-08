@@ -1,0 +1,254 @@
+
+.icon {
+
+    display: inline;
+    color: white;
+    padding: 1px 0px;
+    margin-top: 7px;
+     }
+
+
+
+.one {
+        color: white;
+        font-size: 14px;
+        }
+
+.two{
+    font-size: 12px;
+}
+
+
+
+
+
+
+.logo{
+    background-color: #F7F8FA;
+    padding: 5px 0 0 80px;
+    margin-top: 6px;
+    width: 220px;
+    height: auto;
+
+}
+
+
+
+
+nav ul li{
+    background: #F7F8FA;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    
+    
+
+}
+
+nav ul li a{
+    display:block;
+    padding: 0px 15px;
+    text-decoration: none;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 12px;
+    width: 124px;
+    
+    
+
+}
+
+nav a:hover{
+    
+    background-color:#478AD0;
+    
+    
+ 
+
+}
+
+ 
+
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover > ul{
+display: block;
+}
+
+nav ul ul li{
+    
+    width: 300px;
+    float:none;
+    display: list-item;
+   
+
+
+}
+
+nav ul ul ul li{
+    background-color:  #F7F8FA;
+    top: -60px;
+    left: 180px;
+}
+
+    
+.breaking-news-ticker{
+     background-color:#478AD0;
+     font-size: 14px;
+       font-family: 'Open Sans', sans-serif;
+        list-style-type: none;
+        display: inline;
+        line-height: 15px;
+        margin-top: 10px;
+        margin:10px ;
+        margin-right: -1px;
+        margin-left: 100px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .introduction{
+        color: black;
+    }
+    
+    .heading{
+        text-align: center;
+    
+    }
+    
+    .information{
+    }
+    
+    .logo-1{
+    
+    }
+  
+
+    
+    
+  
+    
+    .facts-figures{
+        background:rgba(36, 79, 242, 0.8); 
+         color:#fff;
+         margin-top: 0px;
+         padding:50px; 
+         
+        
+        }
+
+        .data-value{
+            font-family: Merriweather, serif;
+        }
+
+        .heading-2{
+            text-align: center;
+            background-color:   #F7F8FA;
+        }
+        
+    
+        .Services{
+            background-color:   #F7F8FA;
+        }
+        
+        .underline-small-Mission{
+            position: relative;
+            margin-top: 30px;
+            margin-bottom: 60px;
+            left: 55px;
+            padding-top: 10px;
+            padding-bottom: 0px;
+            
+        }
+        
+        
+        .underline-small-Mission::after{
+            content: "";
+            height: 2px;
+            width:5%;
+            background-color: darkgreen;
+            position: absolute;
+            padding-top:-25px;
+            left: 0px;
+            bottom: -15px;
+        }
+        
+        .headings-3{
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        .box-2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .underline-small-Upcoming-events{
+            position: relative;
+            margin-top: 40px;
+            margin-bottom: 60px;
+            left: 80px;
+            padding-top: 10px;
+            padding-bottom: 0px;
+        }
+        
+        .underline-small-Upcoming-events::after{
+            content: "";
+            height: 2px;
+            width:10%;
+            background-color: darkgreen;
+            position: absolute;
+            padding-top:-25px;
+            left: 0px;
+            bottom: -15px; 
+        }
+        
+        
+        .icon-with-text-1{
+            margin-left: 110px;
+            padding left: 50px;
+        
+        }
+        
+        
+        
+        
+        .icon-with-text-1, .icon-with-text-2{
+            width: 240px;
+            height: 60px;
+            border-style: solid;
+            border-color:#E9E9E9;
+            border-width: 2px;
+            margin-top: 20px;
+            margin-left: 110px;
+            background-color: #F9F4F4;
+            
+            
+        
+        }
+        
+        .box-3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between
+            
+        }
+        
+        .icon-with-text-3, .icon-with-text-4{
+            width: 240px;
+            height: 60px;
+            border-style: solid;
+            border-color:#E9E9E9;
+            border-width: 2px;
+            margin-top: 20px;
+            margin-left: 110px;
+            background-color: #F9F4F4;
+        
